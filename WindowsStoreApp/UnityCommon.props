@@ -1,0 +1,11 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <UnityInstallationDir>C:\Program Files\Unity 5.5.0b6\Editor\</UnityInstallationDir>
+        <UnityWSASolutionName>HelloHolograms</UnityWSASolutionName>
+        <UnityWSASolutionDir>C:\Users\admin\code\sculptshelf\WindowsStoreApp\</UnityWSASolutionDir>
+        <UnityWSAPlayerDir>C:\Program Files\Unity 5.5.0b6\Editor\Data\PlaybackEngines\MetroSupport\</UnityWSAPlayerDir>
+        <UnityWSAToolsDir>$(UnityWSASolutionDir)Unity\Tools\</UnityWSAToolsDir>
+        <UnityProjectDir>C:\Users\admin\code\sculptshelf\</UnityProjectDir>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+</Project>
