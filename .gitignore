@@ -9,7 +9,8 @@ Library/
 Assets/AssetStoreTools*
 project.json
 project.lock.json
-
+App/
+WindowsStoreApp/
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #

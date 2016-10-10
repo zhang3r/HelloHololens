@@ -32,8 +32,10 @@ public class ObjectCommands : MonoBehaviour {
             float x = (float)Math.Sin(System.Convert.ToDouble(headRotation.y.ToString()) * radian);
             float y = -(float)Math.Tan(System.Convert.ToDouble(headRotation.x.ToString()) * radian);
             float z = (float)Math.Cos(System.Convert.ToDouble(headRotation.y.ToString()) * radian);
-            y -= (float)Math.Cos(System.Convert.ToDouble(headRotation.x.ToString()) * radian);
-            var newPosition = headPosition + new Vector3(x * 2, y*2, z * 2);
+            z *= (float)Math.Cos(System.Convert.ToDouble(headRotation.x.ToString()) * radian);
+            //z = (float)(1 - Math.Pow((double)x,2) - Math.Pow((double)y,2));
+            //z = (float)Math.Sqrt(z);
+            var newPosition = headPosition + new Vector3(x * 2, y*2, z*2);
             this.gameObject.transform.position = newPosition;
             this.gameObject.transform.eulerAngles = headRotation;
             Debug.Log("new position " + newPosition);
