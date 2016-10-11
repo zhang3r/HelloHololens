@@ -28,6 +28,8 @@ obj/
 *.user
 *.unityproj
 *.ipch
+*.dll
+*.pdb
 *.opensdf
 *.sdf
 *.obj
