@@ -244,6 +244,14 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 9593862, guid: 08237072f1dc67143871b79d47b48bc7, type: 2}
+      propertyPath: m_ApplyRootMotion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9593862, guid: 08237072f1dc67143871b79d47b48bc7, type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 1b761c4dc08c4b74bb43784535f86bdc, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 08237072f1dc67143871b79d47b48bc7, type: 2}
   m_IsPrefabParent: 0
