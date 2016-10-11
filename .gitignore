@@ -12,7 +12,8 @@ Library/
 Assets/AssetStoreTools*
 project.json
 project.lock.json
-
+App/
+WindowsStoreApp/
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
@@ -30,6 +31,8 @@ obj/
 *.user
 *.unityproj
 *.ipch
+*.dll
+*.pdb
 *.opensdf
 *.sdf
 *.obj
